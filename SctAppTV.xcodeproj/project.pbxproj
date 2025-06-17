@@ -10,9 +10,22 @@
 		0C9EBBBD2DE9ED77005EE885 /* SctAppTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SctAppTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0CA907D32E01B62E00247DF1 /* Exceptions for "SctAppTV" folder in "SctAppTV" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0C9EBBBC2DE9ED77005EE885 /* SctAppTV */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0C9EBBBF2DE9ED77005EE885 /* SctAppTV */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0CA907D32E01B62E00247DF1 /* Exceptions for "SctAppTV" folder in "SctAppTV" target */,
+			);
 			path = SctAppTV;
 			sourceTree = "<group>";
 		};
@@ -254,7 +267,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SctAppTV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_FILE = SctAppTV/Info.plist;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -279,7 +292,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SctAppTV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_FILE = SctAppTV/Info.plist;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
